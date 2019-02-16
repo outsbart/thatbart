@@ -1,6 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styles from './Layout.module.scss';
+import '../../assets/jquery.particleground.min';
+
 
 const Layout = ({ children, title, description }) => (
   <div className={styles.layout}>
