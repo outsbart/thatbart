@@ -1,6 +1,7 @@
 'use strict';
 
 require('./src/assets/scss/init.scss');
+require('./src/assets/js/jquery.particleground.min');
 
 exports.onClientEntry = () => {};
 exports.onInitialClientRender = () => {
